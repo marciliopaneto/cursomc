@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0de1f4a-a552-42d7-9738-d73037a43f9d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/services/CategoriaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursomc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cursomc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/SpringBootWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/SpringBootWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/domain/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/domain/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/resource/CategoriaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/resources/CategoriaResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marcilio/cursomc/SpringBootWebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marcilio/cursomc/domain/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marcilio/cursomc/domain/Categoria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marcilio/cursomc/resource/CategoriaResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/resources/CategoriaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/resources/CategoriaResource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBootWebApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpringBootWebApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/SpringBootWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="360">
+              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#260#261#0" expanded="true" />
@@ -56,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoriaResource.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CategoriaResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/resources/CategoriaResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="329">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +63,7 @@
       <file leaf-file-name="Categoria.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/domain/Categoria.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="210">
               <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,10 +125,10 @@
         <option value="$PROJECT_DIR$/profiles.xml" />
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/domain/Categoria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/SpringBootWebApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/repositories/CategoriaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/services/CategoriaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/resources/CategoriaResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/SpringBootWebApplication.java" />
       </list>
     </option>
   </component>
@@ -335,12 +327,12 @@
       <workItem from="1565626776809" duration="4513000" />
       <workItem from="1565694042151" duration="9056000" />
       <workItem from="1565706499849" duration="1375000" />
-      <workItem from="1565708208979" duration="24458000" />
+      <workItem from="1565708208979" duration="25261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39402000" />
+    <option name="totallyTimeSpent" value="40205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,39 +583,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/SpringBootWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cursomc.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/domain/Categoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/repositories/CategoriaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -645,12 +606,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/domain/Categoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/resources/CategoriaResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcilio/cursomc/SpringBootWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
           </folding>
         </state>
       </provider>
