@@ -1,7 +1,9 @@
 package com.marcilio.cursomc;
 
 import com.marcilio.cursomc.domain.Categoria;
+import com.marcilio.cursomc.domain.Produto;
 import com.marcilio.cursomc.repositories.CategoriaRepository;
+import com.marcilio.cursomc.repositories.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,6 +17,9 @@ public class SpringBootWebApplication implements CommandLineRunner {
     @Autowired
     private CategoriaRepository categoriaRepository;
 
+    @Autowired
+    private ProdutoRepository produtoRepository;
+
     public static void main(String[] args) {
         SpringApplication.run(SpringBootWebApplication.class, args);
     }
@@ -24,7 +29,19 @@ public class SpringBootWebApplication implements CommandLineRunner {
         Categoria cat1 = new Categoria(null, "Informática");
         Categoria cat2 = new Categoria(null, "Escritório");
 
+        Produto p1 = new Produto(null, "Computador", 2000.00);
+        Produto p2 = new Produto(null, "Impressora", 800.00);
+        Produto p3 = new Produto(null, "Mouse", 80.00);
+
+        cat1.getProdutos().addAll(Arrays.asList(p1, p2, p3));
+        cat2.getProdutos().addAll(Arrays.asList(p2));
+
+        p1.getCategorias().addAll(Arrays.asList(cat1));
+        p2.getCategorias().addAll(Arrays.asList(cat1, cat2));
+        p3.getCategorias().addAll(Arrays.asList(cat1));
+
         categoriaRepository.save(Arrays.asList(cat1, cat2));
+        produtoRepository.save(Arrays.asList(p1, p2, p3));
 
     }
 }
